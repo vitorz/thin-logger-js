@@ -1,0 +1,10 @@
+{
+    "name": "thin-logger-js",
+    "version": "1.0.6",
+    "keywords": ["util", "logging", "server", "client"],
+    "author": "vitor",
+    "main": "src/main.js",
+    "contributors": [],
+    "dependencies": {},
+    "files": ["src/"]
+}
