@@ -14,6 +14,6 @@
     },
     "scripts": {
       "lint": "jshint **.js",
-      "build": "browserify index.js | uglify-js -c -b  > ./dist/thin-logger-js.min.js"
+      "build": "browserify src/index.js | uglify-js -c -b  > ./dist/thin-logger-js.min.js"
     }
 }
