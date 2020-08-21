@@ -10,10 +10,10 @@
     "devDependencies": {
       "jshint": "latest",
       "browserify": "latest",
-      "uglify-js": "latest"
+      "minify": "latest"
     },
     "scripts": {
       "lint": "jshint **.js",
-      "build": "browserify src/index.js | uglify-js -c -b  > ./dist/thin-logger-js.min.js"
+      "build": "browserify src/index.js | minify -c -b  > ./dist/thin-logger-js.min.js"
     }
 }
