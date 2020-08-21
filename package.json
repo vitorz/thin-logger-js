@@ -1,19 +1,26 @@
 {
-    "name": "thin-logger-js",
-    "version": "1.0.6",
-    "keywords": ["util", "logging", "server", "client"],
-    "author": "vitor",
-    "main": "src/index.js",
-    "contributors": [],
-    "dependencies": {},
-    "files": ["src/"],
-    "devDependencies": {
-      "jshint": "latest",
-      "browserify": "latest",
-      "minify": "latest"
-    },
-    "scripts": {
-      "lint": "jshint **.js",
-      "build": "browserify src/index.js | minify -c -b  > ./dist/thin-logger-js.min.js"
-    }
+  "name": "thin-logger-js",
+  "version": "1.0.6",
+  "keywords": [
+    "util",
+    "logging",
+    "server",
+    "client"
+  ],
+  "author": "vitor",
+  "main": "src/index.js",
+  "contributors": [],
+  "dependencies": {},
+  "files": [
+    "src/"
+  ],
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "minify": "latest"
+  },
+  "scripts": {
+    "lint": "jshint **.js",
+    "build": "browserify src/index.js | minify > ./dist/thin-logger-js.min.js"
+  }
 }
