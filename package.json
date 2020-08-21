@@ -6,5 +6,14 @@
     "main": "src/main.js",
     "contributors": [],
     "dependencies": {},
-    "files": ["src/"]
+    "files": ["src/"],
+    "devDependencies": {
+      "jshint": "latest",
+      "browserify": "latest",
+      "uglify-js": "latest"
+    },
+    "scripts": {
+      "lint": "jshint **.js",
+      "build": "browserify index.js | uglify-js -c -b  > ./dist/thin-logger-js.min.js"
+    }
 }
