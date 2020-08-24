@@ -21,6 +21,6 @@
   },
   "scripts": {
     "lint": "jshint src/**.js",
-    "build": "test -d dist || mkdir dist ; browserify src/index.js | minify --js > ./dist/thin-logger-js.min.js"
+    "build": "test -d dist || mkdir dist ; browserify src/index.js --standalone tlj | minify --js > ./dist/thin-logger-js.min.js"
   }
 }
