@@ -10,13 +10,12 @@
   "author": "vitor",
   "main": "src/index.js",
   "contributors": [],
-  "dependencies": {},
   "files": [
     "src/"
   ],
   "devDependencies": {
-    "jshint": "latest",
     "browserify": "latest",
+    "jshint": "latest",
     "minify": "latest"
   },
   "scripts": {
